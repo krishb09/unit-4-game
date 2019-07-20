@@ -1,0 +1,38 @@
+body{
+    background: url("../images/crystal.jpg");
+    text-align: center; 
+} 
+h1{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+}
+h2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+}
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    font-size: 18px; 
+}
+#container{
+    background: #f5c542; 
+    border-radius: 60px / 60px;
+}
+.row{
+    height: 500px; 
+}
+.row2{
+    height: 200px;
+}
+.section1{
+    height: 100px; 
+}
+.section2{
+    width: 100px; 
+    text-align: center; 
+}
+.box{
+    width: 250px; 
+    height: 150px; 
+    background: #f56c42; 
+    border: dotted; 
+}

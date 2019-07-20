@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <title>Crystals</title>
+  <link rel="stylesheet" href="assets/css/style.css"> 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+</head>
+<body>
+<h1>
+            Crystal Collector!
+</h1>
+<div id= "container" >
+        <!-- <p id="directions-text"><h2>Press any key to start!</h2></p>
+    
+        <p id="wins-text"> Wins: 0</p>
+        <p id="fillBlank"> _ _ _ _ _ _ _ _</p>
+        <p id="guessesleft-text"> Guesses left: 12 </p>
+        <p id="guesses"> Your Guesses so far: </p> -->
+
+    <div class="row" >
+        <div class="col">
+            <h2>Rules:</h2>
+            <p> Click on any of the four crystals- each crystal has a certain value stored. If you match your total score to the random
+                    number below, you win! 
+            </p>
+            <p> Else, if your total score is greater than random number, you lose ):</p>
+            <p> The values of the crystals are hidden till you click one. Once the game resets, the values of the crystals and the random 
+                    number will also reset.
+            </p>
+            <p> Good Luck!</p>
+            <div class = "box rounded float-right"></div>
+        </div>
+
+        <div class="col">
+            <h2>Play:</h2>
+            <div class = "row">
+                <div class="col"><p class="section1"> Wins: </p></div>
+                <div class="col"><p class= "section1"> Losses: </p> </div>
+            </div>
+            <div class = "row2">
+                        
+                    <p class="section2"> Crystals </p>
+                    <div class ="col-3">
+                    <button><img src="assets/images/heart.jpg" class = "rounded heart" width="100px" ></button></div>
+                    <div class = "col-3">
+                    <button><img src="assets/images/blue.jpg" class = "rounded blue" width="100px" ></button></div>
+                    <div class= "col-3"> 
+                    <button><img src="assets/images/green.jpg" class = "rounded green" width="100px" ></button></div>   
+                    <div class="col-3">
+                    <button><img src="assets/images/orange.jpg" class = "rounded orange" width="100px" ></button></div>
+            </div>
+        </div>
+    </div>
+<script src="assets/javascript/game.js"></script>
+</body>
+</html>
