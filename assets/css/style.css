@@ -13,26 +13,26 @@ p{
     font-family: Verdana, Geneva, Tahoma, sans-serif; 
     font-size: 18px; 
 }
+.total{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+    font-size: 50px;
+}
 #container{
     background: #f5c542; 
     border-radius: 60px / 60px;
 }
-.row{
-    height: 500px; 
-}
-.row2{
-    height: 200px;
-}
-.section1{
-    height: 100px; 
-}
-.section2{
-    width: 100px; 
-    text-align: center; 
-}
+
 .box{
     width: 250px; 
     height: 150px; 
     background: #f56c42; 
     border: dotted; 
+    font-size: 100px;
+}
+
+.box2{
+    width: 250px; 
+    height: 150px; 
+    background: #34ebb1; 
+    font-size: 100px;
 }
